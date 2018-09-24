@@ -1,0 +1,12 @@
+﻿namespace $ClassName$NameSpace
+{
+    using System;
+
+    /// <summary>
+    /// Represents a $ClassName$ model
+    /// </summary>
+    public class $ClassName$
+    {
+$Props$
+    }
+}

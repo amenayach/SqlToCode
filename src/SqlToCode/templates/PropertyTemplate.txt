@@ -1,0 +1,4 @@
+﻿        /// <summary>
+        /// Gets or sets the $Name$
+        /// </summary>
+        public $Type$ $Name$ { get; set; }
