@@ -76,10 +76,14 @@
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            if (tbOutput.Text.IsEmpty())
+            JSsetTimeout.SetTimeout(() =>
             {
-                tbOutput.Text = Application.StartupPath;
-            }
+                if (tbOutput.Text.IsEmpty())
+                {
+                    tbOutput.Text = Application.StartupPath;
+                }
+            }, 500);
+
         }
 
         private void MainForm_KeyDown(object sender, KeyEventArgs e)
